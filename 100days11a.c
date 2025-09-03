@@ -1,13 +1,11 @@
 //Q21: Write a program to display the month name and number of days using switch-case for a given month number.//
 
 #include <stdio.h>
-
 int main() 
 {
     int month;
     printf("Enter month number");
     scanf("%d", &month);
-
     switch(month) 
     {
         case 1:
@@ -29,11 +27,11 @@ int main()
         case 9:
             printf("September, 30 days");
         case 10:
-            printf("October, 31 days\n");
+            printf("October, 31 days");
         case 11:
-            printf("November, 30 days\n");
+            printf("November, 30 days");
         case 12:
-            printf("December, 31 days\n");
+            printf("December, 31 days");
         default:
             printf("Invalid input");
     }
